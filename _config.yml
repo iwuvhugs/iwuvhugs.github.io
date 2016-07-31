@@ -1,0 +1,9 @@
+# Site settings
+title: Kirill Suslov  
+description: "Mobile Developer Intern at Shopify"
+email: k.suslov@yahoo.com
+baseurl: "" 
+url: "http://iwuvhugs.github.io"
+
+# Build settings
+markdown: kramdown

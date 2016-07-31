@@ -1,0 +1,64 @@
+---
+---
+@font-face { 
+	font-family:'GibsonSemiBold';
+	src: url('../assets/gibson-semibold-webfont.ttf');
+}
+
+$font-stack:    'GibsonSemiBold', sans-serif;
+$dark-color: #657C8F;
+$light-color: #9CB7C2;
+
+body {
+	background-image: url("../assets/bg.jpeg");
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+}
+
+h1 {
+	font: {
+		family: $font-stack;
+		size: 54px;
+	}
+	opacity: 0.9;
+	line-height: 66px;
+	padding: 34px 0 0 56px;
+	color: $dark-color;
+}
+
+h2 {
+	font: {
+		family: $font-stack;
+		size: 22px;
+	}
+	opacity: 0.8;
+	padding: 0 0 0 56px;
+	color: $dark-color;
+}
+
+ul.social{
+	margin: 20px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	li {
+		display: inline;
+		text-decoration: none;
+		padding-left: 10px;
+		padding-right: 10px;
+		opacity: 0.7;
+		a {
+			text-decoration: none;
+			color: $light-color;
+		}
+		a:hover {
+			color: $dark-color;
+		}
+	}
+}
+
+
