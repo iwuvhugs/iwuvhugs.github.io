@@ -1,11 +1,11 @@
 ---
 ---
 @font-face { 
-	font-family:'GibsonSemiBold';
+	font-family: 'GibsonSemiBold';
 	src: url('../assets/gibson-semibold-webfont.ttf');
 }
 
-$font-stack:    'GibsonSemiBold', sans-serif;
+$font-stack: 'GibsonSemiBold', sans-serif;
 $dark-color: #657C8F;
 $light-color: #9CB7C2;
 
@@ -48,9 +48,11 @@ ul.social{
 	li {
 		display: inline;
 		text-decoration: none;
-		padding-left: 10px;
-		padding-right: 10px;
 		opacity: 0.7;
+		padding: {
+			left: 10px;
+			right: 10px;
+		}
 		a {
 			text-decoration: none;
 			color: $light-color;
